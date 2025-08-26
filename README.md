@@ -3,7 +3,8 @@
 A comprehensive Python application that implements a Simple Moving Average (SMA) crossover trading strategy with a beautiful Streamlit web interface.
 
 
-Check out the live app here: [SMA-Krish Streamlit App](https://sma-krish.streamlit.app/)
+Check out the live app here: 
+[![Streamlit App](https://img.shields.io/badge/🚀%20Open%20App-Streamlit-red?style=for-the-badge&logo=streamlit)](https://sma-krish.streamlit.app/)
 
 ## 🚀 Features
 
@@ -113,4 +114,5 @@ This project is closed source and Krish Jariwala reserves all the rights.
 ---
 
 **Happy Trading! 📈💰**
+
 
