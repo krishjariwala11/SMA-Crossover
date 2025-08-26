@@ -1,6 +1,9 @@
-# 📈 SMA Crossover Strategy Application
+# 📈 SMA Crossover Strategy  with backtesting Application
 
 A comprehensive Python application that implements a Simple Moving Average (SMA) crossover trading strategy with a beautiful Streamlit web interface.
+
+
+Check out the live app here: [SMA-Krish Streamlit App](https://sma-krish.streamlit.app/)
 
 ## 🚀 Features
 
@@ -25,33 +28,18 @@ A comprehensive Python application that implements a Simple Moving Average (SMA)
 - Internet connection for data fetching
 - Required packages (see requirements.txt)
 
-## 🛠️ Installation
+## 🛠️ How to Use
 
-1. **Clone or download the project files**
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## 🎯 Usage
-
-1. **Run the application**:
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Open your browser** and navigate to the local URL (usually `http://localhost:8501`)
-
-3. **Configure strategy parameters** in the sidebar:
+1. **Configure strategy parameters** in the sidebar:
    - **Stock Ticker**: Enter the stock symbol (e.g., AAPL, MSFT, GOOGL)
    - **Short SMA Window**: Short-term moving average period (default: 20)
    - **Long SMA Window**: Long-term moving average period (default: 50)
    - **Initial Cash**: Starting capital for the strategy
    - **Date Range**: Select start and end dates for backtesting
 
-4. **Click "Run Strategy"** to execute the analysis
+2. **Click "Run Strategy"** to execute the analysis
 
-5. **Review results**:
+3. **Review results**:
    - Performance metrics at the top
    - Interactive charts showing strategy analysis
    - Trade details and history
@@ -64,9 +52,8 @@ The SMA crossover strategy works as follows:
 - **Buy Signal**: When the short-term SMA crosses above the long-term SMA
 - **Sell Signal**: When the short-term SMA crosses below the long-term SMA
 - **Position Management**: 
-  - 100% cash when not invested
-  - 100% stock when buy signal is active
-  - No partial positions or leverage
+
+  - Partial positions or leverage is supported, which includes the number of assets, with a percentage of the available cash.
 
 ## 📈 Performance Metrics Explained
 
@@ -126,3 +113,4 @@ This project is closed source and Krish Jariwala reserves all the rights.
 ---
 
 **Happy Trading! 📈💰**
+
